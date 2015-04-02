@@ -1,4 +1,4 @@
-﻿/*
+/*
   ______________________________    _____   
  /   _____/\_   _____/\______   \  /     \  
  \_____  \  |    __)   |    |  _/ /  \ /  \ 
@@ -38,7 +38,7 @@ namespace SFBM
 
             Config.AddToMainMenu();
 
-            Game.OnGameUpdate += Game_OnGameUpdate;
+            Game.OnUpdate += Game_OnGameUpdate;
 
             Game.PrintChat("SFBM by Snorflake loaded!");
         }
